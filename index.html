@@ -101,10 +101,10 @@
 </section>
 
 <section class="hero teaser">
-  <div class="container is-max-desktop">
+  <div class="container is-max-desktop" style="max-width: 80%; margin: 0 auto;">
     <div class="hero-body">
-      <img id="teaser" src="./assets/4D_scene.png.png" alt="CoCap: Coordinated motion Capture for multi-actor scenes in outdoor environments" style="height: 100%; width: 100%; object-fit: cover;">
-      <h2 class="subtitle has-text-centered">
+      <img id="teaser" src="./assets/4D_scene.png" alt="CoCap: Coordinated motion Capture for multi-actor scenes in outdoor environments" style="height: auto; width: 100%; max-width: 800px; object-fit: cover; margin: 0 auto; display: block;">
+      <h2 class="subtitle has-text-centered" style="max-width: 800px; margin: 1em auto;">
         Coverage optimization on dynamic actors with flying cameras in an occlusion-aware and obstacle-clustered environment where camera extrinsic positions across robots are negotiated
       </h2>
     </div>
@@ -114,26 +114,30 @@
 <section class="hero is-light is-big">
   <div class="hero-body">
     <div class="container">
-      <div class="columns is-multiline is-centered">
+      <!-- Add a new container with a constrained width -->
+      <div class="columns is-multiline is-centered" style="max-width: 80%; margin: 0 auto;">
         <div class="column is-one-third has-text-centered">
-          <img id="shelves" src="./assets/need/multi-actor-indoor-motioncapture.png" alt="indoor motion capture" style="height: 150%; width: 100%; object-fit: cover;">
+          <img id="shelves" src="./assets/need/multi-actor-indoor-motioncapture.png" alt="indoor motion capture" style="height: 120%; width: 100%; object-fit: cover;">
           <p>Motion Capture of multi-actor scenes for virtual production</p>
         </div>
         <div class="column is-one-third has-text-centered">
-          <img id="binpick" src="./assets/need/cyclist-motion-capture.jpg" alt="Cyclist" style="height: 150%; width: 100%; object-fit: cover;">
+          <img id="binpick" src="./assets/need/cyclist-motion-capture.jpg" alt="Cyclist" style="height: 120%; width: 100%; object-fit: cover;">
           <p>Outdoor scenes provide long horizon motion capture sequence</p>
         </div>
         <div class="column is-one-third has-text-centered">
-          <img id="ten" src="./assets/need/humanoid.jpg" alt="Humanoid" style="height: 150%; width: 100%; object-fit: cover;">
+          <img id="ten" src="./assets/need/humanoid.jpg" alt="Humanoid" style="height: 120%; width: 100%; object-fit: cover;">
           <p>Motion capture provides high quality data for humanoid training</p>
         </div>
       </div>
-      <h3 class="subtitle has-text-centered">
+      <!-- Move the caption below the columns -->
+      <h3 class="subtitle has-text-centered" style="margin-top: 20px;">
         Need for Enhancing Motion Capture Techniques for Outdoor Settings.
       </h3>
     </div>
   </div>
 </section>
+
+
 
 
 <footer class="footer">
