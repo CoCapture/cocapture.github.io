@@ -125,15 +125,18 @@
       <div class="columns is-multiline is-centered" style="max-width: 70%; margin: 0 auto;">
         <div class="column is-one-third has-text-centered">
           <img id="shelves" src="./assets/need/multi-actor-indoor-motioncapture.png" alt="indoor motion capture" style="height: 120%; width: 100%; object-fit: cover;">
-          <p>Motion Capture of multi-actor scenes for virtual production</p>
+          <p style="padding: 10px;">Motion Capture of multi-actor scenes for virtual production</p>
+          <p style="font-size: 0.8em; color: gray;">Figure referenced from Optitrack</p>
         </div>
         <div class="column is-one-third has-text-centered">
           <img id="binpick" src="./assets/need/cyclist-motion-capture.jpg" alt="Cyclist" style="height: 120%; width: 100%; object-fit: cover;">
-          <p>Outdoor scenes provide long horizon motion capture sequence</p>
+          <p style="padding: 10px;">Outdoor scenes provide long horizon motion capture sequence</p>
+          <p style="font-size: 0.8em; color: gray;">Figure referenced from Optitrack</p>
         </div>
         <div class="column is-one-third has-text-centered">
           <img id="ten" src="./assets/need/humanoid.jpg" alt="Humanoid" style="height: 120%; width: 100%; object-fit: cover;">
-          <p>Motion capture provides high quality data for humanoid training</p>
+          <p style="padding: 10px;">Motion capture provides high quality data for humanoid training</p>
+          <p style="font-size: 0.8em; color: gray;">Harrison Schell from madevisual.co</p>
         </div>
       </div>
     </div>
@@ -141,10 +144,16 @@
 </section>
 
 
-
 <section class="hero is-big">
   <div class="hero-body">
     <div class="container">
+      <!-- Add the h3 caption at the top -->
+      <div class="has-text-centered" style="margin-bottom: 20px;">
+        <h3 class="subtitle">
+          Key factors in high-quality multi-actor motion capture.
+        </h3>
+      </div>
+      
       <!-- Add a new container with a constrained width -->
       <div class="columns is-multiline is-centered" style="max-width: 100%; margin: 0 auto;">
         <div class="column is-one-quarter has-text-centered">
@@ -162,14 +171,8 @@
         <div class="column is-one-quarter has-text-centered">
           <img id="ten" src="./assets/factors/multi-person coverage.jpg" alt="multi-person coverage" style="height: auto; width: 100%; object-fit: contain;">
           <p>Multi-person coverage</p>
+          <p style="font-size: 0.8em; color: gray;">Figure referenced from paperswithcode.com</p>
         </div>
-      </div>
-
-      <!-- Add a new container below the columns for the h3 caption -->
-      <div class="has-text-centered" style="margin-top: 20px;">
-        <h3 class="subtitle">
-          Key factors in high-quality multi-actor motion capture.
-        </h3>
       </div>
     </div>
   </div>
@@ -187,6 +190,58 @@
     </div>
   </div>
 </section>
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-centered">Experimental Setup and Results</h1>
+      
+      <!-- Reward Comparison -->
+      <div class="columns is-multiline" style="margin-top: 20px;">
+        <!-- Left column for text labels -->
+        <div class="column is-one-fifth has-text-right" style="padding-right: 20px;">
+          <p><strong>Reward Comparison:</strong></p>
+          <p><strong>Scenarios</strong></p>
+          <p><strong>2.5D Map</strong></p>
+          <p><strong>Total Actors</strong></p>
+          <p><strong>Total Horizon</strong></p>
+          <p><strong>#Robots</strong></p>
+          <p><strong>Reward Comparison:</strong></p>
+        </div>
+        
+        <!-- Right column for Corridor and Bottleneck -->
+        <div class="column is-four-fifths">
+          <div class="columns">
+            <!-- Corridor Column -->
+            <div class="column has-text-centered">
+              <p><strong>Corridor</strong></p>
+              <!-- 2.5D Map for Corridor -->
+              <img src="./assets/results/corridor_scenario.png" alt="2.5D Map for Corridor" style="height: 150px; width: 150px; margin: 0 auto; object-fit: cover; border: 1px solid #ddd;">
+              <p>Total actors: <strong>2</strong></p>
+              <p>Total horizon: <strong>8</strong></p>
+              <p>#Robots: <strong>2</strong></p>
+              <!-- Reward Chart for Corridor -->
+              <img src="./assets/results/cooridor_coordinated.png" alt="Reward Chart for Corridor" style="height: 150px; width: 200px; margin: 10px auto; object-fit: cover; border: 1px solid #ddd;">
+            </div>
+            
+            <!-- Bottleneck Column -->
+            <div class="column has-text-centered">
+              <p><strong>Bottleneck</strong></p>
+              <!-- 2.5D Map for Bottleneck -->
+              <img src="./assets/results/bottleneck_scenario_.png" alt="2.5D Map for Bottleneck" style="height: 150px; width: 150px; margin: 0 auto; object-fit: cover; border: 1px solid #ddd;">
+              <p>Total actors: <strong>4</strong></p>
+              <p>Total horizon: <strong>12</strong></p>
+              <p>#Robots: <strong>4</strong></p>
+              <!-- Reward Chart for Bottleneck -->
+              <img src="./assets/results/bottleneck_coordinated.png" alt="Reward Chart for Bottleneck" style="height: 150px; width: 200px; margin: 10px auto; object-fit: cover; border: 1px solid #ddd;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <footer class="footer">
   <div class="container">
