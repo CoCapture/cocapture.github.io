@@ -23,6 +23,15 @@ $ bundle exec jekyll serve --lsi
 Please feel free to cite our work if you find it useful:
 
 ```
+@misc{rauniyar2024cocapcoordinatedmotioncapture,
+      title={CoCap: Coordinated motion Capture for multi-actor scenes in outdoor environments}, 
+      author={Aditya Rauniyar and Micah Corah and Sebastian Scherer},
+      year={2024},
+      eprint={2412.20695},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2412.20695}, 
+}
 ```
 
 # Website License
