@@ -1,5 +1,8 @@
 # CoCap: Coordinated motion Capture for multi-actor scenes in outdoor environments
 
+[![arXiv](https://img.shields.io/badge/arXiv-2412.20695-b31b1b.svg)](https://arxiv.org/abs/2412.20695)
+
+
 This is the repository that contains the source code for our paper website [_CoCap: Coordinated motion Capture for multi-actor scenes in outdoor environments_](https://cocapture.github.io/).
 It has been adapted from the [Nerfies website](https://nerfies.github.io).
 
